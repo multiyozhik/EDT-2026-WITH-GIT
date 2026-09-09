@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4966b8aa-0059-460d-a547-a9dc4022b69e">
+  <producedTypes>
+    <objectType typeId="e9fdf51c-dd80-4e45-b4a9-b155da522000" valueTypeId="7d3e9185-98b5-4571-ac0d-65aeb2a77d6f"/>
+    <refType typeId="832f3e38-d298-4699-b8c0-69a29ed05b2b" valueTypeId="fd18935c-276e-4d7c-9fd2-8c86ad1c12fe"/>
+    <selectionType typeId="8024d34c-541b-4491-902b-c0300352d776" valueTypeId="73765f1e-339e-479d-9e42-62e11a2f14ce"/>
+    <listType typeId="bdd1ada9-2bc5-4913-b2ec-ed60f6212562" valueTypeId="960fcbd9-4a52-48ce-bc62-8aaf46ecfb3e"/>
+    <managerType typeId="3250cbee-7b7f-4c47-8b7f-c82fc920678b" valueTypeId="4ceff728-2dde-4f59-8804-23fab7b06636"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="77b154a1-be65-4662-8663-a0d1113642a7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

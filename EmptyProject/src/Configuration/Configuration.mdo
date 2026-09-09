@@ -41,5 +41,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПоступлениеТовара</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
 </mdclass:Configuration>
